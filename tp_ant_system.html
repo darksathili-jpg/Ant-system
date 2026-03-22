@@ -531,7 +531,7 @@
     #canvas-convergence {
       display: block;
       margin: 1rem auto;
-      background: #0d1117;
+      background: #838a945b;
       border-radius: 8px;
       border: 1px solid var(--accent);
       max-width: 100%;
@@ -3660,7 +3660,7 @@ if __name__ == "__main__":
         const fy = v1.y + (v2.y - v1.y) * ratio;
         ctx.beginPath();
         ctx.arc(fx, fy, 4, 0, Math.PI * 2);
-        ctx.fillStyle = `hsla(${fi * 37},70%,65%,0.85)`;
+        ctx.fillStyle = `hsla(${fi * 37},70%,65%,0.25)`;
         ctx.fill();
       });
 
@@ -3668,7 +3668,7 @@ if __name__ == "__main__":
       VILLES_ANIM.forEach(v => {
         ctx.beginPath(); ctx.arc(v.x, v.y, 11, 0, Math.PI * 2);
         ctx.fillStyle = '#1e2538'; ctx.fill();
-        ctx.strokeStyle = '#8ca5b433'; ctx.lineWidth = 2; ctx.stroke();
+        ctx.strokeStyle = '#8ca5b4'; ctx.lineWidth = 2; ctx.stroke();
         ctx.fillStyle = '#d4dde4'; ctx.font = 'bold 12px JetBrains Mono,monospace';
         ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
         ctx.fillText(v.nom, v.x, v.y);
