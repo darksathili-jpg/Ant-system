@@ -907,7 +907,7 @@
         <div class="controls-anim">
           <button class="btn-tp" id="btn-anim-toggle" onclick="animToggle()">▶ Démarrer</button>
           <button class="btn-secondaire" onclick="animReset()">↺ Réinitialiser</button>
-          <button class="btn-tp-or" id="btn-anim-speed" onclick="animVitesse()">⚡ Accélérer</button>
+          <button class="btn-tp-or" id="btn-anim-speed" onclick="animVitesse()">Accélérer</button>
         </div>
         <div class="slider-row">
           <label for="slider-fourmis">Fourmis :</label>
@@ -929,7 +929,7 @@
 
       <!-- Courbe de convergence -->
       <div class="encadre-conseil">
-        <span class="encadre-prefix">📈 Courbe de convergence</span>
+        <span class="encadre-prefix">Courbe de convergence</span>
         <p style="margin-bottom:.5rem;">Ce graphique montre comment la meilleure distance trouvée diminue au fil des
           itérations. C'est la signature visuelle d'un algorithme qui <em>apprend</em>.</p>
         <canvas id="canvas-convergence" width="740" height="160"></canvas>
@@ -1127,7 +1127,7 @@ D = [
 
       <!-- SYSTÈME DE DÉBLOCAGE — Exo 1 -->
       <div id="debloqueur-exo1" class="debloqueur">
-        <span class="debloqueur-titre">🔓 Déblocage de la correction — Exercice 1</span>
+        <span class="debloqueur-titre">Déblocage de la correction — Exercice 1</span>
         <p style="font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--text-muted);margin-bottom:.7rem;">
           Entre la distance totale de la tournée gloutonne A → B → C → D → E → A pour débloquer la correction.
         </p>
@@ -1228,7 +1228,7 @@ D = [
           </table>
 
           <div class="encadre-danger" style="margin-top:1rem;">
-            <span class="encadre-prefix">⚠ Résultat important</span>
+            <span class="encadre-prefix">Résultat important</span>
             <p>
               La stratégie gloutonne (63 km) est <strong>moins bonne</strong> que A→B→C→E→D→A (57 km),
               qui est d'ailleurs la tournée <em>optimale</em> pour ce graphe.
@@ -1297,7 +1297,7 @@ D = [
         </div>
 
         <div class="encadre-conseil">
-          <span class="encadre-prefix">💡 Pourquoi l'inverse ?</span>
+          <span class="encadre-prefix">Pourquoi l'inverse ?</span>
           <p>
             On veut que les villes <em>proches</em> soient <em>attractives</em>.
             Si la distance est petite, son inverse est grand. Si la distance est grande,
@@ -1385,7 +1385,7 @@ D = [
         </div>
 
         <div class="encadre-conseil">
-          <span class="encadre-prefix">💡 L'image du dé truqué</span>
+          <span class="encadre-prefix">L'image du dé truqué</span>
           <p>
             Imagine que tu lances un dé à faces inégales. Chaque ville disponible
             correspond à une face. Mais certaines faces sont plus grosses que d'autres :
@@ -1547,7 +1547,7 @@ D = [
       </ol>
 
       <div class="encadre-conseil">
-        <span class="encadre-prefix">📐 Aide au calcul — Attractivité de A → B</span>
+        <span class="encadre-prefix">Aide au calcul — Attractivité de A → B</span>
         <p>
           \( \tau_{AB} = 2{,}0 \), \( \eta_{AB} = 0{,}1 \)
         </p>
@@ -1559,7 +1559,7 @@ D = [
 
       <!-- Déblocage exo proba -->
       <div id="debloqueur-exo-proba" class="debloqueur">
-        <span class="debloqueur-titre">🔓 Déblocage de la correction</span>
+        <span class="debloqueur-titre">Déblocage de la correction</span>
         <p style="font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--text-muted);margin-bottom:.7rem;">
           En arrondissant à l'entier le plus proche, quel est le pourcentage de chance
           d'aller en B ? (Entre un nombre entier entre 0 et 100.)
@@ -1580,7 +1580,7 @@ D = [
 
       <div id="correction-exo-proba" class="section-masquee">
         <div class="encadre">
-          <span class="encadre-prefix">✓ Correction — Exercice de calcul de probabilité</span>
+          <span class="encadre-prefix">Correction — Exercice de calcul de probabilité</span>
 
           <h4>Étape 1 — Attractivités</h4>
           <table style="max-width:600px;">
@@ -1668,7 +1668,7 @@ D = [
       <h2>5. Exercice 2 — Sac à dos 0/1 <span class="badge-bo">BO</span></h2>
 
       <div class="encadre-conseil">
-        <span class="encadre-prefix">💡 Que signifie « 0/1 » ?</span>
+        <span class="encadre-prefix">Que signifie « 0/1 » ?</span>
         <p>
           Le « 0/1 » désigne les deux seuls choix possibles pour chaque objet :
           soit tu le prends <strong>en entier</strong> (1), soit tu le laisses
@@ -1827,7 +1827,7 @@ test_sac_a_dos()
 
       <!-- SYSTÈME DE DÉBLOCAGE — Exo 2 -->
       <div id="debloqueur-exo2" class="debloqueur">
-        <span class="debloqueur-titre">🔓 Déblocage de l'indice puis de la correction</span>
+        <span class="debloqueur-titre">Déblocage de l'indice puis de la correction</span>
         <p style="font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--text-muted);margin-bottom:.7rem;">
           Pour débloquer l'indice : entre la valeur maximale atteignable avec une capacité de 2 kg.
           Pour débloquer la correction complète : entre la valeur maximale avec une capacité de 10 kg.
@@ -1848,7 +1848,7 @@ test_sac_a_dos()
 
       <div id="indice-exo2" class="section-masquee">
         <div class="encadre-indice">
-          <span class="encadre-prefix">💡 Indice — Structure du code</span>
+          <span class="encadre-prefix">Indice — Structure du code</span>
           <p>La boucle principale ressemble à :</p>
           <pre><code>for i in range(1, n + 1):
     for w in range(capacite + 1):
@@ -1862,7 +1862,7 @@ test_sac_a_dos()
 
       <div id="correction-exo2" class="section-masquee">
         <div class="encadre">
-          <span class="encadre-prefix">✓ Correction complète — Exercice 2</span>
+          <span class="encadre-prefix">Correction complète — Exercice 2</span>
           <p><strong>Solution optimale :</strong> Lampe frontale (2 kg, 7 pts) + Gourde (3 kg, 5 pts) + Nourriture (5
             kg, 8 pts) = 10 kg, <strong>20 pts</strong>.</p>
           <div class="py-editor-box">
@@ -2023,7 +2023,7 @@ def fib(n):
         </ol>
 
         <div class="encadre-conseil">
-          <span class="encadre-prefix">💡 Conseil pratique</span>
+          <span class="encadre-prefix">Conseil pratique</span>
           <p>
             Pour le sac à dos : <strong>tabulaire</strong> — tous les sous-problèmes
             sont utiles et leur nombre est connu à l'avance. Pour la recherche textuelle
@@ -2122,7 +2122,7 @@ test_probabilite_transition()
 
       <!-- Déblocage partie A -->
       <div id="debloqueur-exo3a" class="debloqueur">
-        <span class="debloqueur-titre">🔓 Déblocage — Partie A</span>
+        <span class="debloqueur-titre">Déblocage — Partie A</span>
         <p style="font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--text-muted);margin-bottom:.7rem;">
           Avec tau=[[1,1,1],[1,1,1],[1,1,1]], eta=[[1,1,1],[1,1,1],[1,1,1]], alpha=1, beta=1,
           depuis la ville 0 vers [1,2] : quelle est la probabilité d'aller en ville 1 ?
@@ -2143,7 +2143,7 @@ test_probabilite_transition()
 
       <div id="indice-exo3a" class="section-masquee">
         <div class="encadre-indice">
-          <span class="encadre-prefix">💡 Indice — Partie A</span>
+          <span class="encadre-prefix">Indice — Partie A</span>
           <pre><code>denominateur = sum(tau[i][j]**alpha * eta[i][j]**beta for j in non_visites)
 probs = {
     j: (tau[i][j]**alpha * eta[i][j]**beta) / denominateur
@@ -2234,7 +2234,7 @@ test_construire_tournee()
 
       <!-- Déblocage partie B -->
       <div id="debloqueur-exo3b" class="debloqueur">
-        <span class="debloqueur-titre">🔓 Déblocage — Partie B</span>
+        <span class="debloqueur-titre">Déblocage — Partie B</span>
         <p style="font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--text-muted);margin-bottom:.7rem;">
           Combien d'éléments contient la liste <code>tournee</code> retournée pour un graphe à 5 villes ?
         </p>
@@ -2253,7 +2253,7 @@ test_construire_tournee()
 
       <div id="indice-exo3b" class="section-masquee">
         <div class="encadre-indice">
-          <span class="encadre-prefix">💡 Indice — Partie B</span>
+          <span class="encadre-prefix">Indice — Partie B</span>
           <pre><code>non_visites = list(range(N))
 non_visites.remove(depart)
 courant = depart
@@ -2364,7 +2364,7 @@ test_ant_system()
 
       <!-- Déblocage partie C -->
       <div id="debloqueur-exo3c" class="debloqueur">
-        <span class="debloqueur-titre">🔓 Déblocage — Partie C</span>
+        <span class="debloqueur-titre">Déblocage — Partie C</span>
         <p style="font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--text-muted);margin-bottom:.7rem;">
           Quelle est la valeur de <code>tau[i][j]</code> après une seule évaporation avec \( \rho = 0.5 \),
           en partant de <code>tau[i][j] = 1.0</code> ? Entre un nombre décimal (ex: 0.5).
@@ -2384,7 +2384,7 @@ test_ant_system()
 
       <div id="indice-exo3c" class="section-masquee">
         <div class="encadre-indice">
-          <span class="encadre-prefix">💡 Indice — Partie C</span>
+          <span class="encadre-prefix">Indice — Partie C</span>
           <pre><code>def mettre_a_jour_pheromones(tau, tournees_distances, rho, Q):
     n = len(tau)
     # 1. Evaporation
@@ -2427,7 +2427,7 @@ def ant_system(nb_iterations, nb_fourmis, alpha=1, beta=2, rho=0.5, Q=100):
       <h2>8. Synthèse — Projet : Ant System visuel <span class="badge-bo">BO</span></h2>
 
       <div class="encadre-conseil">
-        <span class="encadre-prefix">🎯 Ce que tu as construit — Bilan</span>
+        <span class="encadre-prefix">Ce que tu as construit — Bilan</span>
         <p>
           Tu as implémenté chaque composante de l'algorithme Ant System et validé chaque
           brique avec des tests. Le projet final assemble tout ça dans une vraie application :
@@ -2443,7 +2443,7 @@ def ant_system(nb_iterations, nb_fourmis, alpha=1, beta=2, rho=0.5, Q=100):
       </div>
 
       <div class="encadre-danger">
-        <span class="encadre-prefix">⚠ Environnement requis — Python local</span>
+        <span class="encadre-prefix">Environnement requis — Python local</span>
         <p>
           Ce projet ne fonctionne pas dans le navigateur. Installe Pygame dans ton
           environnement Python local (Thonny, VS Code, ou terminal) :
@@ -2524,7 +2524,7 @@ test_ville()</code></pre>
 
       <!-- Déblocage étape 1 -->
       <div id="debloqueur-synth1" class="debloqueur">
-        <span class="debloqueur-titre">🔓 Déblocage — Correction Classe Ville</span>
+        <span class="debloqueur-titre">Déblocage — Correction Classe Ville</span>
         <p style="font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--text-muted);margin-bottom:.7rem;">
           Quelle est la distance entre la ville (0, 0) et la ville (3, 4) ?
           (C'est le triangle 3-4-5 — tu peux calculer à la main.)
@@ -2544,7 +2544,7 @@ test_ville()</code></pre>
 
       <div id="correction-synth1" class="section-masquee">
         <div class="encadre">
-          <span class="encadre-prefix">✓ Correction — Classe Ville</span>
+          <span class="encadre-prefix">Correction — Classe Ville</span>
           <pre><code>import math
 
 class Ville:
@@ -2674,7 +2674,7 @@ test_colonie()</code></pre>
 
       <!-- Déblocage étape 2 -->
       <div id="debloqueur-synth2" class="debloqueur">
-        <span class="debloqueur-titre">🔓 Déblocage — Correction Classe Colonie</span>
+        <span class="debloqueur-titre">Déblocage — Correction Classe Colonie</span>
         <p style="font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--text-muted);margin-bottom:.7rem;">
           Avec les villes A(0,0), B(3,0), C(3,4), quelle est la valeur de <code>eta[0][2]</code> ?
           (Donne une fraction décimale arrondie à 2 chiffres, ex: 0.20)
@@ -2860,7 +2860,7 @@ class Visualiseur:
 
       <!-- Déblocage étape 3 -->
       <div id="debloqueur-synth3" class="debloqueur">
-        <span class="debloqueur-titre">🔓 Déblocage — Correction Visualiseur</span>
+        <span class="debloqueur-titre">Déblocage — Correction Visualiseur</span>
         <p style="font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--text-muted);margin-bottom:.7rem;">
           La boucle Pygame appelle <code>une_iteration()</code> à chaque frame.
           Si on tourne à <strong>10 fps</strong> pendant <strong>300 itérations</strong>,
@@ -2975,7 +2975,7 @@ class BaseDonnees:
 
       <!-- Déblocage étape 4 -->
       <div id="debloqueur-synth4" class="debloqueur">
-        <span class="debloqueur-titre">🔓 Déblocage — Correction BaseDonnees</span>
+        <span class="debloqueur-titre">Déblocage — Correction BaseDonnees</span>
         <p style="font-family:'JetBrains Mono',monospace;font-size:.82rem;color:var(--text-muted);margin-bottom:.7rem;">
           En SQL, quel mot-clé utilise-t-on pour trier les résultats
           du plus petit au plus grand ? (En majuscules, 2 mots séparés par un espace.)
@@ -3056,7 +3056,7 @@ class BaseDonnees:
       </p>
 
       <div class="encadre-conseil">
-        <span class="encadre-prefix">🎁 main.py — Fourni après avoir terminé les 4 étapes</span>
+        <span class="encadre-prefix">main.py — Fourni après avoir terminé les 4 étapes</span>
         <pre><code>import random
 from ville       import Ville
 from colonie     import Colonie
@@ -3169,7 +3169,7 @@ if __name__ == "__main__":
     function toggleMode() {
       document.body.classList.toggle('mode-clair');
       document.getElementById('btn-mode').textContent =
-        document.body.classList.contains('mode-clair') ? '🌙 Sombre' : '☀ Clair';
+        document.body.classList.contains('mode-clair') ? 'Sombre' : 'Clair';
     }
     function showToast(msg) {
       const t = document.getElementById('toast');
@@ -3323,7 +3323,7 @@ if __name__ == "__main__":
         fb.className = 'debloqueur-feedback ok';
         document.getElementById('indice-exo3b').style.display = 'block';
         document.getElementById('debloqueur-exo3b').style.borderColor = 'var(--accent-vert)';
-        showToast('💡 Indice partie B débloqué !');
+        showToast('Indice partie B débloqué !');
       } else {
         fb.className = 'debloqueur-feedback err';
         if (tentatives3b < 2) {
@@ -3348,7 +3348,7 @@ if __name__ == "__main__":
         fb.className = 'debloqueur-feedback ok';
         document.getElementById('indice-exo3c').style.display = 'block';
         document.getElementById('debloqueur-exo3c').style.borderColor = 'var(--accent-vert)';
-        showToast('💡 Indice partie C débloqué !');
+        showToast('Indice partie C débloqué !');
       } else {
         fb.className = 'debloqueur-feedback err';
         if (tentatives3c < 2) {
