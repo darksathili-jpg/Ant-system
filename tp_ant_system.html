@@ -3719,7 +3719,7 @@ if __name__ == "__main__":
     function animVitesse() {
       animSpd = animSpd === 80 ? 20 : 80;
       if (animRun) { clearInterval(animTmr); animTmr = setInterval(etapeAnim, animSpd); }
-      document.getElementById('btn-anim-speed').textContent = animSpd === 20 ? '🐢 Ralentir' : '⚡ Accélérer';
+      document.getElementById('btn-anim-speed').textContent = animSpd === 20 ? 'Ralentir' : 'Accélérer';
     }
 
     // ============================================================
